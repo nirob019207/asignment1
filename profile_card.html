@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - Kamran Hasan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif; 
+            background-color: #f0f0f0;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Light gray background for main section */
+        }
+        .main-card {
+            width: 300px;
+           
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .profile-pic {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            top: 50px;
+           
+            background-color: #cccccc;
+        }
+        .name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333333; 
+            margin-top: 50px;
+        }
+        .job-title {
+            font-size: 1.2em;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+        .bio {
+            font-size: 0.9em;
+            color: #555555; 
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            color: #333333;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1.5em;
+        }
+        .header {
+        
+            background-color: #4CAF50; 
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          
+        }
+        .footer {
+            background-color: #2196F3; 
+            padding: 10px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            color: #ffffff; 
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main-card">
+            <div class="header">
+                <img src="img/profile.jpg" class="profile-pic" alt="">
+            </div>
+            <div class="name">Kamran Hasan</div>
+            <div class="job-title">Web Developer</div>
+            <div class="bio">
+                I'm a software engineer passionate about crafting elegant solutions to complex problems. With a knack for quick learning, I thrive in designing efficient, user-centric software that drives innovation and meets diverse needs.
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="footer">
+                Contact me at kamran@example.com
+            </div>
+        </div>
+    </div>
+</body>
+</html>
